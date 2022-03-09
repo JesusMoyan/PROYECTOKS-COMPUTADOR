@@ -1,0 +1,95 @@
+.myButton {
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size: 10px;
+	font-weight:bold;
+	padding:6px 40px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.mybutton:hover {
+	background:linear-gradient(to bottom, #dfdfdf 5%, #ededed 100%);
+	background-color:#dfdfdf;
+}
+.mybutton:active {
+	position:relative;
+	top:1px;
+}
+.MENU{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+#logok{
+	height: 60px;
+	width: 60px;
+}
+#usuario{
+	height: 25px;
+	width: 25px;
+}
+#lupa{
+	height: 25px;
+	width: 25px;
+}
+#carrito{
+	height: 25px;
+	width: 25px;
+}
+.CELULARES{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+#xiaomi{
+	height: 480px;
+	width: 480px;
+}
+#samsung{
+	height: 500px;
+	width: 500px;
+}
+.TELEVISORES{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+#televisor{
+	height: 500px;
+	width: 500px;
+}
+.ELECTRODOMESTICOS{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+}
+#NEVERA{
+	height: 500px;
+	width: 500px;
+}
+#LAVADORA{
+	height: 500px;
+	width: 500px;
+}
+#PORTATILES{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+#portatil{
+	height: 500px;
+	width: 500px;
+}
+
